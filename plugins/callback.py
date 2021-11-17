@@ -225,7 +225,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-                InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+                InlineKeyboardButton('🧩 Source', url='https://github.com/MrSukumarb/MusicPlayer'),
             ]
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
